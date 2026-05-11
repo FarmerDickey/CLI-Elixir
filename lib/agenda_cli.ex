@@ -52,8 +52,7 @@ defmodule AgendaCli do
       name: extract_value(command, "--name"),
       company: extract_value(command, "--company"),
       phone: extract_value(command, "--phone"),
-      email: extract_value(command, "--email"),
-      metadata: "RXUgdXRpbGl6ZWkgSUEgbmVzc2UgdHJhYmFsaG8h"
+      email: extract_value(command, "--email")
     }
   end
 
